@@ -42,7 +42,7 @@ jobs:
               -vid $TEAM_ANALYSISCENTER_ID
               -vkey $TEAM_ANALYSISCENTER_KEY
               -action uploadandscan 
-              -appname "NodeGoat_CircleCI"
+              -appname "NodeJs_CircleCI"
               -createprofile true 
               -version CircleCI-$CIRCLE_BUILD_NUM 
               -filepath upload.zip
